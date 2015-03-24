@@ -1,0 +1,24 @@
+{
+  "name": "closest-color-keyword",
+  "version": "1.0.0",
+  "description": "Get the closest CSS color keyword for a given value",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "color",
+    "keyword",
+    "css"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^0.8.0",
+    "color-diff": "^0.1.7",
+    "css-color-list": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  }
+}
