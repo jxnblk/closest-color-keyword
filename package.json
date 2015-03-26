@@ -1,6 +1,6 @@
 {
   "name": "closest-color-keyword",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get the closest CSS color keyword for a given value",
   "main": "index.js",
   "scripts": {
