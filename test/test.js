@@ -35,5 +35,15 @@ describe('closest-color-keyword', function() {
     assert.equal(name, 'chocolate');
   });
 
+  it('should return orange', function() {
+    var name = keyword('#228b22');
+    assert.equal(name, 'forestgreen');
+  });
+
+  it('should simplify to green', function() {
+    var name = keyword('#228b22', { basic: true });
+    assert.equal(name, 'green');
+  });
+
 });
 
